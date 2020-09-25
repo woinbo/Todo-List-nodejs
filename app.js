@@ -5,7 +5,7 @@ const _ = require("lodash");
 
 
 
-mongoose.connect("mongodb+srv://admin-ankit:%2F%21%40%23Ap%23%40%211@cluster0.n8qbr.mongodb.net/todoListDB?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://<yourUserName>:<PASSWORD>@cluster0.n8qbr.mongodb.net/<DATABASE_NAME>?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

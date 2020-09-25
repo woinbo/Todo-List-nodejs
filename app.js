@@ -77,8 +77,6 @@ app.get("/:pageName", function (req, res) {
       }
     }
   });
-
-  console.log(req.params.pageName);
 });
 
 app.post("/", function (req, res) {

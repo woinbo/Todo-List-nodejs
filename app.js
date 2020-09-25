@@ -124,10 +124,9 @@ app.post("/remove", function (req, res) {
     // });
   }
 });
-let port = process.env.port;
-if(port == null || port == ""){
-  port = 3000;
-}
-app.listen(port, function () {
+
+// let port = process.env.port;
+
+app.listen(process.env.port, function () {
   console.log("server has started successfully");
 });
